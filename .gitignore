@@ -17,6 +17,7 @@ env/
 .ruff_cache/
 .coverage
 .coverage.*
+temp_auto_push.bat
 coverage.xml
 htmlcov/
 
@@ -26,7 +27,6 @@ dist/
 *.egg-info/
 
 # IDE
-.vscode/
 .idea/
 
 # OS
@@ -38,3 +38,5 @@ site/
 # Review
 .venv-review/
 .omc/
+.gitignore
+branch_structure.json
